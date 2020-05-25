@@ -9,7 +9,6 @@ from keras.optimizers import RMSprop
 from keras.callbacks import ModelCheckpoint, EarlyStopping
 from keras.models import load_model
 import os
-import cv2
 import numpy as np
 from os import listdir
 from os.path import isfile, join

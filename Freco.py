@@ -137,8 +137,7 @@ history = model.fit_generator(
     callbacks = callbacks,
     validation_data = validation_generator,
     validation_steps = nb_validation_samples // batch_size)
-print(history.history['accuracy'])
-
+acc=history.history['accuracy'][-1]
 f = open("acc.txt", "w")
 f.write(str(acc*100))
 f.close()

@@ -73,8 +73,8 @@ print(model.summary())
 
 #model.layers
 
-train_data_dir = 'pics/train/'
-validation_data_dir = 'pics/test/'
+train_data_dir = 'Desktop/model1/pics/train/'
+validation_data_dir = 'Desktop/model1/pics/test/'
 
 # Let's use some data augmentaiton 
 train_datagen = ImageDataGenerator(
